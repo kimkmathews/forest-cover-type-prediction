@@ -34,15 +34,15 @@ This project utilizes the Covertype Dataset from the UCI Machine Learning Reposi
 
 ## Results
 ### Exploratory Data Analysis (EDA)
-![EDA Distribution Plot](img/eda_distribution.png)
+![Cover Type Distribution Plot](img/cover_type_distribution.png)
 *Description: Distribution of key numerical features like elevation and slope.*
 
 ### Modeling Performance
-![Confusion Matrix](img/confusion_matrix.png)
+![Confusion Matrix](img/confusion_matrix_tuned_xgboost.png)
 *Description: Confusion matrix for the tuned XGBoost model showing classification performance across cover types.*
 
-![Model Accuracy Comparison](img/model_accuracy_comparison.png)
-*Description: Comparison of accuracy scores for Random Forest, XGBoost, and Neural Network models.*
+![Model Accuracy Comparison](img/model_comparison.png)
+*Description: Comparison of metric scores for Random Forest, XGBoost, and Neural Network models.*
 
 ## Key Insights
 - Random Forest provides a robust baseline with 0.95 accuracy.
